@@ -1,0 +1,76 @@
+MATH.H
+E: tinh so e 2.718281828
+PI: tinh so pi 3,141592654
+IEEEremainder(double d, double d1) : tra ve gia tri con lai sau khi d duoc chia cho d1
+abs(double d) : tinh tri tuyet doi
+abs(float f) : tinh tri tuyet doi
+abs(int i) : tinh tri tuyet doi
+abs(long l) : tinh tri tuyet doi
+acos(double d): tinh arcos cua d theo gia tri radian
+addExact(int i, int i1): tinh tong i+i1
+addExact(long l, long l1): tinh tong l+l1
+asin(double d): tinh arcsin cua d theo gia tri radian
+atan(double d): tinh arctan cua d theo gia tri radian
+atan2(double d, double d1): tinh arctan cua d/d1 theo gia tri radian
+cbrt(double d): khai can bac 3
+ceil(double d): tra ve so nguyen nho nhat lon hon hoac bang d
+copySign(double d, double d1): thiet lap dau cho doi so dau tien toi dau cua doi so thu 2
+copySign(float f, float f1): thiet lap dau cho doi so dau tien toi dau cua doi so thu 2
+cos(double d): tinh cos cua goc d theo gia tri radian
+cosh(double d): tinh cosh (ham hyperbolic cosin) cua d theo gia tri radian
+decrementExact(int i): in ra gia tri nho hon gia tri cua i 1 don vi
+decrementExact(long l): in ra gia tri nho hon gia tri cua l 1 don vi
+exp(double d): tinh e^d
+expm1(double d): tra ve gia tri e^d - 1
+floor(double d): tra ve gia tri nguyen lon nhat nho hon hoac hang d
+floorDiv(int i , int i1): tinh i/i1 lay gia tri nguyen
+floorDiv(long l, long l1): tinh l/l1 lay gia tri nguyen
+floorMod(int i, int i1): tinh i/i1 lay gia tri du
+floorMod(long l, long l1): tinh l/l1 lay gia tri du
+getExponent(double d): tra lai so mu khong chech ( nam trong khaong -1022 -> +1023)
+getExponent(float f): tra lai so mu khong chech(nam trong khaong -125 -> + 127)
+hypot(doube d, double d1): tra ve gia tri (d^2+d1^2)
+incrementExact(int i): tra ve doi so tang len 1
+incrementExact(long l): tra ve doi so tang len 1
+log(double d): tinh ln(d)
+log10(double d): tinh logarit co so 10
+long1p(double d): tra ve gia tri ln(d+1)
+max(doube d, double d1): tim max cua 2 so double
+max(float f, float f1): tim max cua 2 so float
+max(int i, int i1): tim max cua 2 so int
+max(long l, long l1): tim max cua 2 so long
+min(doube d, double d1): tim min cua 2 so double
+min(float f, float f1): tim min cua 2 so float
+min(int i, int i1): tim min cua 2 so int
+min(long l, long l1): tim min cua 2 so long
+multiplyExact(int i, int i1): tra ve gia tri i*i1
+multiplyExact(long l, long l1): tra ve gia tri l * l1
+negateExact(int i): tra ve gia tri nguoc dau voi gia tri i(vs i = 12 -> tra ve gt -12)
+negateExact(long l): tra ve gia tri nguoc dau voi gia tri i(vs i = 12.0 -> tra ve gt -12.0)
+nextAfter(double d, double d1): tim so phay dong gan nhat nho hon 1 so da dinh
+nextAfter(long l, long l1): tim so phay dong gan nhat nho hon 1 so da dinh
+nextDown(double d): tra ve gia tri dau phay dong lien ke voi vo cuc am
+nextDown(float f): tra ve gia tri dau phay dong lien ke voi vo cuc am
+nextUp(float f): tra lai so phay dong gan nhat lon hon doi so dau tien
+nextUp(double d): tra lai so phay dong gan nhat lon hon doi so dau tien
+pow(double d, double d1): tinh d ^ d1 (vd pow(x,y) => x^y)
+random(): ham tim so ngau nhien
+rint(double d): tra ve gia tri double gan nhat voi gia tri cho doi so va bang so int 
+round(double d): tra ve do dai gan nhat cho doi so, lam tron thanh vo cuc duong
+round(float f):tra ve do dai gan nhat cho doi so, lam tron thanh vo cuc duong
+scalb(double d, int i): nhan d voi 2^i
+scalb(float f, int i): nhan f voi 2^i
+signum(double d): chuyen doi so duong thanh so am va cac so 0 thanh so 0
+signum(float f): chuyen doi so duong thanh so am va cac so 0 thanh so 0
+sin(double d): tinh sin goc d theo gia tri radian
+sinh(double d): tinh sinh (ham hyperbolic sin) cua d theo gia tri radian
+sqrt(double d): tinh can bac hai
+subtractExact(int i, int i1): tra ve su khac biet cua cac doi so
+subtractExact(long l, long l1): tra ve su khac biet cua cac doi so
+tan(double d): tinh tan goc d theo gia tri radian
+tanh(double d): tinh tanh (ham hyperbolic tan) cua d theo gia tri radian
+toDegrees(double d): doi goc radian thanh do
+toIntExact(long l): tra ve gia tri doi so l, nem 1 ngoai le neu gia tri vuot qua 1 so int
+toRadians(double d): doi goc don vi do ra radian
+ulp(double d): tra lai khoang cach tu mot so den cac so ke ban gan nhat cua no
+ulp(float f): tra lai khoang cach tu mot so den cac so ke ban gan nhat cua no
