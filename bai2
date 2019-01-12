@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Buoi1;
+
+/**
+ *
+ * @author Nguyễn Xuân Anh Thư
+ */
+public class b2 {
+    public static double tong(int n){
+        if(n==1){
+            return 1;
+        }
+        else {
+            return (double) tong(n-1) + n*n;
+        }
+    }
+    public static void main(String args[]){
+        int n = 6;
+        if(n>=5 && n<=20){
+            double s = tong(n);
+            System.out.println(s);
+        }
+        
+    }
+}
