@@ -8,9 +8,19 @@ package Buoi3;
  */
 public class buoi3_5 {
     public static void NegativeNumerInStrings(String str){
-        for(int i = 0;i<str.length();i++){
-            if(str.charAt(i) <= '0'){
-                System.out.println(str.charAt(i));
+       String st = "-";
+        int i;
+        for(i = 0;i<str.length();i++){
+            if((int)str.charAt(i) == 45){ // chuyển các kí tự thành ma ASCII
+                i++;
+                while((int) str.charAt(i) <=57 && (int)str.charAt(i) >=48){
+                    st+=str.charAt(i);i++;
+                    if((int) str.charAt(i) >57 || (int)str.charAt(i) <48 ){
+                        System.out.println(st);
+                        st = "-";
+                        break;
+                    }
+                }
             }
         }
     }
