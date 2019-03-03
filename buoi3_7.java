@@ -36,11 +36,9 @@ public class buoi3_7 {
         return dem;
     }
     public static int demKTDB(String s){
-        char c;
         int dem = 0;
         for(int i = 0;i<s.length();i++){
-            c = s.charAt(i);
-            if(Character.isSpaceChar(c)){
+            if((int) s.charAt(i) == 92 || (int) s.charAt(i) == 91 || (int) s.charAt(i) == 46 || (int) s.charAt(i) == 40 || (int) s.charAt(i) == 123 || (int) s.charAt(i) == 42 || (int) s.charAt(i) == 43 ||(int) s.charAt(i) == 63 || (int) s.charAt(i) == 94 || (int) s.charAt(i) == 36 || (int) s.charAt(i) == 124){
                 dem++;
             }
         }
